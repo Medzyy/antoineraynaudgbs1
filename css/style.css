@@ -45,6 +45,13 @@ html,body{
     opacity: 0%;
     transition: opacity 10000000s;
 }
+.banniere{
+    background-color: black;
+}
+h2{
+    color: white;
+    text-align: center;
+}
 .cards{
     display: flex;
 }
