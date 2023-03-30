@@ -1,16 +1,19 @@
-html,body{
+html, body{
     margin: 0%;
     padding: 0%;
 }
+.navbar{
+    position: sticky;
+}
 .panels{
     display: flex;
-    height: 75vh;
+    height: 93vh;
     width: 100vw;
 }
 .panel{
     height: 100%;
     flex:1;
-    transition: flex 1s;
+    transition: flex 0.3s;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -23,10 +26,10 @@ html,body{
    
 }
 .panel:hover{
-    flex:2.5
+    flex:1.5
 }
 .gow{
-    background-image: url("../img/gow.jpg");
+    background-image: url("../img/gow.webp");
 }
 
 .elden{
@@ -35,23 +38,21 @@ html,body{
 
 }
 .sekiro{
-    background-image: url("../img/sekiro.jpg");
-
-}
-.panel:hover>.titreJeu{
-    color: white;
-    font-size: 3em;
-    font-family: 'Roboto';
-    opacity: 0%;
-    transition: opacity 10000000s;
+    background-image: url("../img/sekiro.webp");
+    width: 100vw;
 }
 .banniere{
     background-color: black;
 }
 h2{
-    color: white;
     text-align: center;
+    color: white;
+}
+.page2 {
+background-color: grey;
+height: 100vh;
 }
 .cards{
     display: flex;
+    justify-content: space-between;
 }
