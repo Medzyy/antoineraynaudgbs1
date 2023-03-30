@@ -1,13 +1,26 @@
 html, body{
     margin: 0%;
     padding: 0%;
+    overflow-x: hidden;
 }
 .navbar{
-    position: sticky;
+    position: fixed;
+}
+.Site{
+    color: white;
+}
+.maClasse{
+    color: white;
+}
+.bandeAnnonce{
+    color: white;
+}
+.lesJeux{
+    color: white;
 }
 .panels{
     display: flex;
-    height: 93vh;
+    height: 100vh;
     width: 100vw;
 }
 .panel{
@@ -26,7 +39,7 @@ html, body{
    
 }
 .panel:hover{
-    flex:1.5
+    flex:1.55
 }
 .gow{
     background-image: url("../img/gow.webp");
@@ -41,18 +54,24 @@ html, body{
     background-image: url("../img/sekiro.webp");
     width: 100vw;
 }
-.banniere{
+.banniere1{
     background-color: black;
 }
 h2{
     text-align: center;
     color: white;
+    margin-bottom: 0%;
 }
 .page2 {
 background-color: grey;
-height: 100vh;
 }
-.cards{
+.trailer{
     display: flex;
     justify-content: space-between;
+}
+.banniere2{
+    background-color: black;
+}
+.page3{
+    background-color: grey;
 }
