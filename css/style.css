@@ -2,9 +2,38 @@ html, body{
     margin: 0%;
     padding: 0%;
     overflow-x: hidden;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 .navbar{
     position: fixed;
+}
+.pageaccueil{
+    /* background-image: url(../img/gameaward.jpg); */
+    background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/gameaward.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+h1{
+    margin: 0%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.description{
+    color: white;
+    text-align: center;
+    width: 70vw;
+    font-size: 35px;
 }
 .Site{
     color: white;
@@ -18,6 +47,9 @@ html, body{
 .lesJeux{
     color: white;
 }
+.banniere1{
+    background-color: black;
+ }
 .panels{
     display: flex;
     height: 100vh;
@@ -39,7 +71,7 @@ html, body{
    
 }
 .panel:hover{
-    flex:1.55
+    flex:1.7
 }
 .gow{
     background-image: url("../img/gow.webp");
@@ -54,8 +86,8 @@ html, body{
     background-image: url("../img/sekiro.webp");
     width: 100vw;
 }
-.banniere1{
-    background-color: black;
+.banniere2{
+   background-color: black;
 }
 h2{
     text-align: center;
@@ -63,15 +95,17 @@ h2{
     margin-bottom: 0%;
 }
 .page2 {
-background-color: grey;
+    background-image: url(../img/fondviolet.jpg);
 }
 .trailer{
     display: flex;
     justify-content: space-between;
 }
-.banniere2{
+.banniere3{
     background-color: black;
 }
 .page3{
-    background-color: grey;
+    background-image: url(../img/fondviolet.jpg);
 }
+
+
