@@ -1,5 +1,52 @@
 body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/fondviolet.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/fondnoir.webp");
     background-size: cover;
     background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.album .row .col .card .card-img-top {
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.album .row .col:nth-child(1) .card .card-img-top {
+    background-image: url(../img/goty2014.jpg);
+}
+
+.album .row .col:nth-child(2) .card .card-img-top {
+    background-image: url(../img/goty2015.jpg);
+}
+
+.album .row .col:nth-child(3) .card .card-img-top {
+    background-image: url(../img/overwatch.jpg);
+}
+
+.album .row .col:nth-child(4) .card .card-img-top {
+    background-image: url(../img/goty2017.jpg);
+}
+
+.album .row .col:nth-child(5) .card .card-img-top {
+    background-image: url(../img/goty2018.jpg);
+}
+
+.album .row .col:nth-child(6) .card .card-img-top {
+    background-image: url(../img/goty2019.jpg);
+}
+
+.album .row .col:nth-child(7) .card .card-img-top {
+    background-image: url(../img/goty2020.jpg);
+
+}
+
+.album .row .col:nth-child(8) .card .card-img-top {
+    background-image: url(../img/goty2021.jpg);
+}
+
+.album .row .col:nth-child(9) .card .card-img-top {
+    background-image: url(../img/albumelden.jpg);
 }

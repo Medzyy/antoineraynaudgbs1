@@ -1,4 +1,3 @@
-
 .btn-light,
 .btn-light:hover,
 .btn-light:focus {
@@ -15,7 +14,7 @@ body {
 }
 
 .cover-container {
-  max-width: 42em;
+  height: 100vh;
 }
 
 .nav-masthead .nav-link {
@@ -110,35 +109,61 @@ body {
 }
 .panels{
   display: flex;
-  height: 60vh;
-  width: 60vw;
+  height: 100vh;
 }
-.panel{
+
+.panels a {
+  display: block;
+  cursor: pointer;
   height: 100%;
-  flex:1;
+  flex: 1;
   transition: flex 0.3s;
+  text-decoration: none;
+}
+
+.panels a .panel {
+  width: 100%;
+  height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
   display: flex;
-
+  align-items: center;
   justify-content: center;
- 
 }
-.panel:hover{
-  flex:1.7
+
+.panels a:hover{
+  flex:1.7;
+}
+.panel > p{
+ opacity: 0;
+ transition: opacity ease-in-out .3s;
+ font-size: 42px;
+ font-weight: bold;
+ color: white;
+}
+.panels a:hover .panel > p{
+  opacity: 1;
 }
 .gow{
-  background-image: url("../img/gow.webp");
+  background-image:url("../img/gow.webp");
 }
 
 .elden{
-  background-image: url("../img/elden.jpg");
-
+  background-image:url("../img/elden.jpg");
 
 }
 .sekiro{
-  background-image: url("../img/sekiro.webp");
-  width: 100vw;
+  background-image:url("../img/sekiro.webp");
+}
+.gow:hover{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/gow.webp");
+}
+
+.elden:hover{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/elden.jpg");
+
+}
+.sekiro:hover{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/sekiro.webp");
 }
